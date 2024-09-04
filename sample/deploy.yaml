@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: python-app:v9 # Use the local image name from Jenkins
+        image: localhost:5000/python-app:v9 # Use the local image name from Jenkins
         ports:
         - containerPort: 5000
 ---
