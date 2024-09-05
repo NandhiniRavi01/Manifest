@@ -13,8 +13,7 @@ spec:
         app: python-app
     spec:
       containers:
-      - name: my-flask-app
+      - name: python-app
         image: localhost:5000/python-app:v9
-        imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 5001
+        - containerPort: 5000
