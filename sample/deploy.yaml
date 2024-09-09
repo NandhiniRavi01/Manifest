@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: python-app:v9
+        image: gcr.io/white-welder-432609-t7/python-app:v9
 
         ports:
         - containerPort: 5000
