@@ -15,6 +15,7 @@ spec:
       containers:
       - name: python-app
         image: gcr.io/white-welder-432609-t7/python-app:v9
+        imagePullPolicy: IfNotPresent
 
         ports:
         - containerPort: 5000
